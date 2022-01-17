@@ -46,10 +46,28 @@ nav ul{
     border: 2px solid #008CBA;
 }
 
-@media  only screen and (max-width: 800px ) {
+@media  only screen and (max-width: 975px ) {
  
-    nav ul {
+    nav  {
+        display: flexbox;
+        flex: auto;
         justify-content: center;
+        position: relative;
+        float: center;
+        flex-wrap: wrap;
+    }
+
+    ul{
+        justify-content: center;
+        float: center;
+        flex-wrap: wrap;
+    }
+
+    nav ul{
+        margin: 1.2%;
+        display: flex;
+        justify-content: center;
+    
     }
     
 }
