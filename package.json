@@ -113,6 +113,10 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs|cjs|ts|tsx)$",
       "^.+\\.module\\.(css|sass|scss)$"
     ],
+    "module.exports" : {
+      "distDir": "build"
+    },
+    "target": "serverless",
     "modulePaths": [],
     "moduleNameMapper": {
       "^react-native$": "react-native-web",
