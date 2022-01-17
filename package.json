@@ -1,5 +1,4 @@
 {
-  "homepage": "https://juanbau514.github.io/Rick-And-Morty-App/",
   "name": "rick-and-morty-app",
   "version": "0.1.0",
   "private": true,
@@ -62,6 +61,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "command" : "yarn build && yarn export",
+    "publish" :"out",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
