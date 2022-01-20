@@ -19,7 +19,7 @@ const Botones = ({prev, next, onPrevious, onNext}) =>{
                         <button className="btn1" onClick={botonAnterior} >  Anterior </button>
                         :
                         null
-                    };
+                    }
 
                     {
                         next ?
