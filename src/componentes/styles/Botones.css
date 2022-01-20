@@ -31,7 +31,6 @@ nav ul{
     margin-bottom: -20px;
     margin-top: -20px;
     justify-content: center;
-
 }
 
 .btn1 {
@@ -48,8 +47,17 @@ nav ul{
     border: 2px solid #008CBA;
 }
 
-@media  only screen and (max-width: 975px),(max-height:710px) {
- 
+
+@media  (max-height:580px), screen and (max-width: 768px ) {
+    nav ul{
+        margin: 40%;
+        justify-content: center;
+    }
+
+}
+    
+@media  (min-height:700px), screen and (max-width: 1424px ) {
+  
     nav  {
         display: flexbox;
         flex: auto;
@@ -71,5 +79,6 @@ nav ul{
         justify-content: center;
     
     }
-    
-}
+  
+  }
+  

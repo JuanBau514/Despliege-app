@@ -41,7 +41,6 @@
 .container .card img{
     display: flex;
     justify-content: center;
-    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     width: 12em;
@@ -52,7 +51,7 @@
     text-align: left;
     position: absolute;    
     font-weight: 740;
-    padding-top: 225px;
+    padding-top: 205px;
     overflow: hidden;
     color: #3498db;
 }
@@ -62,7 +61,7 @@
     font-weight: 540;
     flex-wrap: wrap;
     overflow: hidden;
-    padding-top: 255px;
+    padding-top: 15em;
     color: #092436;
 }
 
@@ -74,7 +73,7 @@
     padding-left: 20px;  
     font-weight: 540;
     flex-wrap: wrap;
-    padding-top: 300px;
+    padding-top: 17em;
     padding-right: 20px;
     color: #092436;
 }
@@ -87,7 +86,7 @@
     font-weight: 540;
     padding-left: 20px;  
     flex-wrap: wrap;
-    padding-top: 350px;
+    padding-top: 21.5em;
     padding-right: 20px;
     color: #092436;
 }
